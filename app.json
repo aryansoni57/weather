@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Simple Weather",
+    "slug": "weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/simpleweatherlogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/simpleweather.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d0d0d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aryansoni57.weather"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
